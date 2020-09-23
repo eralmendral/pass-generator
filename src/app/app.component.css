@@ -1,0 +1,94 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  min-height: 720px;
+  display: flex;
+  background: linear-gradient(45deg, rgb(19, 18, 18), rgb(10, 6, 6));
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  margin-bottom: 30px;
+}
+
+.form-wrapper p {
+  line-height: 250%;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-wrapper p b {
+  color: #fff;
+}
+
+.form-wrapper input {
+  margin-left: 20px;
+}
+
+.form-wrapper input[type="text"] {
+  height: 30px;
+  background: #000;
+  border: 2px dotted rgb(195, 41, 93);
+  color: rgb(195, 41, 93);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form-wrapper input[type="checkbox"] {
+  height: 30px;
+  background: red;
+  padding: 20px;
+}
+
+.form-wrapper input[type="text"]:focus {
+  border: 2px solid rgb(195, 41, 93);
+  outline: 0px;
+}
+
+h1 {
+  font-weight: bolder;
+  background: -webkit-linear-gradient(45deg, rgb(119, 6, 34), rgb(195, 41, 93));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+}
+
+.password-generated-wrapper {
+  max-width: 720px;
+  height: 100px;
+  max-height: 720px;
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 10px;
+  color: #fff;
+}
+
+.generate-button {
+  display: block;
+  margin: 40px auto;
+  width: 250px;
+  height: 40px;
+  background: rgb(195, 41, 93);
+  font-family: "Anton";
+  font-size: 18px;
+  color: #000;
+  border: none !important;
+  outline: none !important;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: grey;
+}
